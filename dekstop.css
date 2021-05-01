@@ -1,0 +1,155 @@
+/* for dekstop */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar design starts from here */
+
+.nav-logo{
+    text-align: left;
+    margin-left: -50px;
+    margin-top: -50px;
+    
+}
+.nav-heading h1{
+    text-align: right;
+    margin-right: -90px;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    padding: 5px 10px;
+    margin: 30px 0;
+    
+
+}
+.navbar{
+    height: 130px;
+}
+/* nabvar design ends here */
+
+/* profile design start here */
+
+.profile .icon1{
+    position: absolute;
+    right: 100px;
+    
+    border-radius: 50%;
+    transition: width 2s, transform 2s;
+
+}
+
+.profile .icon1:hover{
+  width: 110px;
+}
+.profile .icon2{
+    position: absolute;
+    left: 100px;
+    bottom: -55px;
+    border-radius: 50%;
+    transition: width 2s, transform 2s;
+
+}
+
+.profile .icon2:hover{
+  width: 110px;
+}
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    
+    margin: 0px auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* profile design ends here */
+
+
+/* about me design starts here  */
+
+.aboutme-image {
+    margin-top: 100px;
+}
+.aboutme-image img{
+    height: 270px;
+    width: 250px;
+
+}
+
+.aboutme-desc p{
+
+    text-align: left;
+}
+
+/* about me design ends here  */
+
+/* professional expreience starts here */
+
+.professional-experience{
+    padding: 1% 5%;
+}
+
+
+/* professional expreience ends here */
+
+
+ /* achievement starts here  */
+
+    .achievement{
+
+        padding-right: 50px;
+    }
+    .contact button{
+
+        
+        width: 150px;
+
+
+    }
+
+    .contact-links{
+
+        position: relative;
+    }
+
+    .media-buttons{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 200px;
+
+    }
+
+  /* achievement ends here  */
+
+  /* footer starts here */
+
+    .footer-menu{
+
+        margin-top: 12px;
+    }
+    .footer-menu a{
+        display: inline;
+        margin: 10px;
+        
+
+    }
+    /* footer ends here */
